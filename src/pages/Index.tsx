@@ -9,11 +9,11 @@ const Index = () => {
         <div className="p-8 md:p-12 space-y-8">
           
           <div className="text-center space-y-2 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-playfair text-primary font-bold tracking-tight">
-              InLoveCake
+            <h1 className="text-4xl md:text-5xl font-playfair text-primary font-bold tracking-tight leading-tight">
+              Торты и десерты на заказ
             </h1>
-            <p className="text-sm md:text-base text-muted-foreground font-light tracking-widest uppercase">
-              Торты на заказ Бутово
+            <p className="text-lg md:text-xl text-muted-foreground font-light tracking-wide">
+              от Марии Лебедевой
             </p>
           </div>
 
