@@ -36,16 +36,16 @@ const Index = () => {
 
           <div className="text-center space-y-3 py-6 animate-slide-up">
             <h2 className="text-3xl md:text-4xl font-playfair text-primary font-semibold">
-              Бенто-торт за 1 день
+              Десерты к чаю за 1 день
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <Card className="p-6 bg-white/80 backdrop-blur-sm border-2 border-primary/20 hover:border-primary/40 transition-colors duration-300">
               <div className="text-center space-y-2">
-                <Icon name="MapPin" className="mx-auto text-primary" size={32} />
+                <Icon name="Truck" className="mx-auto text-primary" size={32} />
                 <p className="text-sm font-medium text-foreground/80">Бесплатная доставка</p>
-                <p className="text-xs text-muted-foreground">Южное Бутово и Потапово<br/>при первом заказе</p>
+                <p className="text-xs text-muted-foreground">при первом заказе</p>
               </div>
             </Card>
             
@@ -53,7 +53,7 @@ const Index = () => {
               <div className="text-center space-y-2">
                 <Icon name="Tag" className="mx-auto text-primary" size={32} />
                 <p className="text-lg font-semibold text-primary">Промокод</p>
-                <p className="text-2xl font-playfair font-bold text-primary">БУТОВО</p>
+                <p className="text-2xl font-playfair font-bold text-primary">КУКИС</p>
               </div>
             </Card>
           </div>
