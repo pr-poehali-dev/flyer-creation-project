@@ -20,15 +20,15 @@ const Index = () => {
           <div className="grid grid-cols-2 gap-4 animate-scale-in">
             <div className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
               <img 
-                src="https://cdn.poehali.dev/files/3356fcff-6e7d-4657-b825-3b698f08fd2c.jpg" 
+                src="https://cdn.poehali.dev/files/c61975e2-7be5-42f3-9b29-ed514f7ccd55.jpg" 
                 alt="Капкейки с начинкой"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
               <img 
-                src="https://cdn.poehali.dev/files/288bb0cc-20fe-4a3d-9ff6-edb48943a383.jpg" 
-                alt="Шоколадный капкейк"
+                src="https://cdn.poehali.dev/files/d58a0ead-b9fb-40e3-b82d-3992534b8985.jpg" 
+                alt="Набор шоколада"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -59,15 +59,19 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-4 animate-scale-in" style={{ animationDelay: '0.3s' }}>
-            <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-              <div className="w-full h-full bg-gradient-to-br from-pink-100 to-pink-200 flex items-center justify-center">
-                <Icon name="Cake" size={64} className="text-primary/40" />
-              </div>
+            <div className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/29d8d841-55c7-4bc2-8226-4a9df29f591c.jpg" 
+                alt="Детский торт с мишкой"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
-            <div className="aspect-square rounded-lg overflow-hidden shadow-md">
-              <div className="w-full h-full bg-gradient-to-br from-peach-100 to-peach-200 flex items-center justify-center">
-                <Icon name="Gift" size={64} className="text-secondary/40" />
-              </div>
+            <div className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/c908e5eb-b6d3-4ebb-b277-9e2b48c6531a.jpg" 
+                alt="Торт с облаками"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
 
