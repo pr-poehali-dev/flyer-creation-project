@@ -5,7 +5,7 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-peach-50 flex items-center justify-center p-4 md:p-8">
-      <Card className="w-full max-w-2xl bg-gradient-to-b from-white to-pink-50/30 shadow-2xl overflow-hidden">
+      <Card className="w-[148mm] h-[210mm] bg-gradient-to-b from-white to-pink-50/30 shadow-2xl overflow-hidden" style={{ aspectRatio: '148/210' }}>
         <div className="p-8 md:p-12 space-y-8">
           
           <div className="text-center space-y-2 animate-fade-in">
